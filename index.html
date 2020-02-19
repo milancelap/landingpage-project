@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>fCC Landing page</title>
+  <meta name="description" content="Landing page">
+  <meta name="author" content="Milan Celap">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://kit.fontawesome.com/85533ee696.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div id="header-wrapper">
+  <header id="header">
+    <div class="logo">
+      <img id="header-img" src="https://live.staticflickr.com/65535/49459497818_382c504505_o.png" alt="Queroo logo"/>
+    </div>
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#form-box">Contact</a></li>
+        <li><a class="nav-link" href="#video-box">How It Works</a></li>
+        <li><a class="nav-link" href="#features">Features</a></li>
+      </ul>
+    </nav>
+  </header>
+</div>
+<main>
+  <div class="grid-wrapper">
+    <div class="grid-container">
+      <div class="grid-box" id="hero-left">
+        <div id="hero-copy">
+          <h1>Turn feedback into action</h1>
+          <h2>Our survey platform makes it easy to measure and understand feedback so you can drive growth and innovation.</h2>
+        </div>
+      </div>
+      <div class="grid-box" id="hero-right">
+        <img id="hero-image" src="https://live.staticflickr.com/65535/49464171468_2e9aa51193_o.png" alt="Queroo screenshot">
+      </div>
+      <div class="grid-box" id="form-box">
+        <h3>Sign up for news about Queroo!</h3>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input type="text" placeholder="Name">
+          <input id="email" name="email" type="email" placeholder="Email Address" required>
+          <input id="submit"  type="submit" value="Subscribe">
+        </form>
+      </div>
+      <div class="grid-box" id="video-left">
+        <div id="video-box">
+          <iframe id="video" src="https://www.youtube-nocookie.com/embed/EZJQDpS7ikc" allowfullscreen="" height="315" frameborder="0"></iframe>
+        </div>
+      </div>
+      <div class="grid-box" id="video-right">
+          <h3>Are you tired of doing surveys the old fashioned way? Give Queroo a try and get the answers you need.</h3>
+      </div>
+      <div class="grid-box" id="features"><i class="fas fa-magic"></i><p>Easily create surveys, quizzes, and polls for any audience.</p></div>
+      <div class="grid-box"><i class="fas fa-comments"></i><p>Gather feedback via weblink, email, mobile chat, social media, and more.</p></div>
+      <div class="grid-box"><i class="fas fa-chart-pie"></i><p>Automatically analyze your results and get powerful analysis features.</p></div>
+      <div class="grid-box"><i class="fas fa-cloud-download-alt"></i><p>Export your results or integrate your data with your favorite apps.</p></div>
+      <div class="grid-box" id="footer-box"><p>© 2020. Made with ❤ by Milan Celap.</p></div>
+    </div>
+  </div>
+</main>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
